@@ -1,4 +1,26 @@
-// ELumaUSBPubs.h
+////////////////////////////////////////////////////////////////////////////////
+// FILE:		ELumaUSB.h
+// PROJECT:		Etaluma
+//------------------------------------------------------------------------------
+// DESCRIPTION:	This is a wrapper for LumaUSB.dll. Since LumaUSB.dll is a C#
+//				library, this wrapper is intended to expose the components and
+//				methods so that they may be used in native C/C++. In order for
+//				this wrapper to work, the libusbK drivers must be installed.
+//
+// AUTHOR:		Nicholas Schaub, nicholas.schaub@nist.gov
+//				http://www.nist.gov/mml/bbd/biomaterials/nicholas-schaub.cfm
+//
+// LICENSE:     This file is distributed under the BSD license.
+//              License text is included with the source distribution.
+//
+//              This file is distributed in the hope that it will be useful,
+//              but WITHOUT ANY WARRANTY; without even the implied warranty
+//              of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+//
+//              IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+//              CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+//              INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES.
+//
 
 #include <vector>
 #include <string>
